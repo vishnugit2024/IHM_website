@@ -1,0 +1,51 @@
+.conbg {
+  background: gainsboro;
+}
+
+.feebtitle{
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+  font-family: Oswald;
+
+}
+
+.innercard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #111 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.rating {
+  color: #ffc107;
+}
+
+.star-filled {
+  color: #ffc107;
+}
+
+.star-empty {
+  color: #444;
+}
+
+/* Add some responsiveness if needed */
+@media (max-width: 768px) {
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
+}

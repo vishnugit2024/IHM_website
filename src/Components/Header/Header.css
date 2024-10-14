@@ -1,0 +1,211 @@
+/* ==================== Whatsapp =================  */
+.whatsapp_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 90px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff !important;
+  border-radius: 50px;
+  text-align: center;
+  /* font-size: 30px; */
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+
+  transform: all 0.5s ease;
+  background-color: #25d366;
+  line-height: 50px;
+  color: white;
+}
+
+
+.whatsapp_float::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #25d366;
+  border-radius: 50%;
+  -webkit-animation: pulse-border 1500ms ease-out infinite;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.whatsapp_float:focus {
+  border: none;
+  outline: none;
+}
+
+.whatsapp-icon {
+ margin-bottom: 6px;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 1;
+  }
+}
+
+/* ==================== call_float =================  */
+.call_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 170px;
+  right: 40px;
+  background-color: #0067b0;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+
+  transform: all 0.5s ease;
+  background-color: #0067b0;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.call_float::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #0067b0;
+  border-radius: 50%;
+  -webkit-animation: pulse-border 1500ms ease-out infinite;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.call_float:focus {
+  border: none;
+  outline: none;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 1;
+  }
+}
+
+/* Go To Top Button  */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 45px;
+  z-index: 1000;
+}
+
+.go-to-top-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 2.5rem;
+  color: var(--color-skyblue); /* Change the color */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.go-to-top-btn:hover {
+  color: var(--color-darkblue);
+}
+
+.go-to-top-btn:focus {
+  outline: none;
+}
+
+
+
+/* General Styles */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand img {
+    max-width: 250px; 
+    height: auto;
+    margin-left: 3rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--color-black);
+    transition: color 0.3s ease;
+font-weight: 600;
+margin-right: 2rem;
+  }
+  
+  /* Hover and Active State */
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #007bff; 
+    
+  }
+  
+  /* Dropdown Styling */
+  .navbar-nav .dropdown-menu {
+    background-color: #fff; 
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  .navbar-nav .dropdown-item {
+    padding: 10px 20px;
+    color: var(--color-black);
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .dropdown-item:hover {
+    background-color: #f8f9fa; /* Highlight on hover */
+    color: #007bff;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+ 
+  @media (max-width: 992px) {
+    
+    .navbar-brand img{
+      max-width: 150px; 
+      height: auto;
+    }
+    .navbar-nav {
+      text-align: center; /* Center-align menu items on small screens */
+    }
+  
+    .navbar-collapse {
+      background-color: #f8f9fa; /* Set background for collapsed menu */
+      padding: 10px;
+    }
+  }
+  

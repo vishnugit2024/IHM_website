@@ -1,0 +1,127 @@
+.heroimg1 {
+    background: url(../../Assets/slide3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay1 {
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 100%;
+    height: 100%;
+  }
+  .overlay1 h2 {
+    text-align: center;
+    padding: 10rem 10rem;
+    color: var(--color-darkblue);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+  }
+  
+.outside {
+    border-top: 5px solid var(--color-skyblue);
+     box-shadow: 0px 7px 15px 0 rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+     padding: 2rem 0rem;
+}
+
+.inputhead {
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+}
+
+.inputhead span {
+    color: var(--color-skyblue);
+}
+
+.item {
+    color: black;
+    font-weight: 500;
+    /* padding-bottom: 3rem; */
+}
+
+.itemstyle {
+   border-left: 5px solid var(--color-skyblue);
+   padding: 5px;
+  margin-left: 10px; 
+}
+
+
+.inneroption {
+    width:100%;
+}
+
+.subbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subbtn .btnstyle {
+    font-weight: bold;
+   font-size: 1.5rem;
+   width: 20rem;
+   height: 4rem;
+   background: var(--color-skyblue);
+   color: white;
+   border: none;
+  border-radius: 0.5rem;
+  
+}
+
+.pocketicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 2rem;
+    height: 4rem;
+}
+
+.costsection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconcustom {
+    width: auto;
+    border: 1px solid gray;
+    padding: 0.75rem;
+    border-radius: 1rem;
+}
+
+.rightcost {
+   margin-right: 3rem;
+}
+
+.rightcost h2 {
+    color: var(--color-skyblue);
+    font-size: 2.5rem;
+    letter-spacing: 0.20rem;
+}
+
+.content-head .mdk {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .heroimg1 .overlay1 {
+        height: 20vh;
+    }
+
+    .overlay1 h2 {
+       color: var(--color-darkblue);
+       padding: 0;
+       margin: 0;
+       font-size: 25px;
+       font-weight: bold;
+       text-align: center;
+       padding-top: 5rem;
+      }
+}
+
+
+

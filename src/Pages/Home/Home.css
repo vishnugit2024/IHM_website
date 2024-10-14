@@ -1,0 +1,338 @@
+.carousel-container {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  left: 20%;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--color-skyblue);
+}
+
+.social-media-icons {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  z-index: 10;
+}
+
+.social-media-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-skyblue);
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-media-icons a:hover {
+  color: #007bff;
+  background: whitesmoke;
+  transform: scale(1.1);
+}
+
+/* Carousel slides */
+.carousel-item img {
+  width: 100%;
+  height: 70vh;
+}
+
+.carousel-item {
+  position: relative;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Tablet-specific styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousel-caption h1 {
+    font-size: 32px;
+  }
+
+  .carousel-caption p {
+    font-size: 16px;
+  }
+
+  .social-media-icons a {
+    width: 45px; /* Slightly larger icons for tablets */
+    height: 45px;
+    font-size: 20px;
+  }
+}
+
+/* Desktop-specific styles */
+@media (min-width: 1024px) {
+  .carousel-caption h1 {
+    font-size: 48px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .social-media-icons a {
+    width: 50px; /* Default size for desktop */
+    height: 50px;
+  }
+}
+
+.ourprojects .carousel .carousel-caption {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.ourprojects .carousel-caption h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* Container for the service boxes */
+.service-box {
+  padding: 20px;
+}
+
+.service-icon {
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.service-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+
+/* Description styling */
+.service-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-left: 15px;
+}
+
+.outline {
+  outline-style: dotted;
+  outline-color: burlywood;
+  outline-width: 2px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.small-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding-bottom: 0;
+}
+
+.content-head1 h5 {
+  color: var(--color-skyblue);
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  font-family: Oswald;
+}
+
+.content-head1 h2 {
+  color: var(--color-black);
+  font-weight: bold;
+  font-family: Oswald;
+
+}
+/* Padding for the card container */
+.card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background: blanchedalmond;
+  color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card-body img {
+  padding: 5rem;
+  margin-top: -5rem;
+  margin-bottom: -5rem;
+}
+
+/* Text align and spacing for the section title */
+h5 {
+  letter-spacing: 2px;
+}
+
+.container .btn {
+  background: var(--color-skyblue);
+  color: #fff;
+  width: 10rem;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.container .btn:hover {
+  background: var(--color-skyblue);
+  color: #fff;
+  width: 10rem;
+  transform: scale(1.1);
+}
+
+.container-fluid .btn {
+  background: var(--color-skyblue);
+  color: #fff;
+  width: 10rem;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  margin-bottom: 2rem;
+}
+
+.container-fluid .btn:hover {
+  background: var(--color-skyblue);
+  color: #fff;
+  width: 10rem;
+  transform: scale(1.1);
+}
+
+
+.small-image1 {
+  max-width: 100%; 
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+/* Adjust the bottom margin for smaller screens */
+@media (max-width: 767px) {
+  
+  .carousel-item img {
+    height: 30vh;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+
+  .warranty {
+    padding: 1rem;
+  }
+
+  .warranty1 {
+    margin-left: -1rem;
+    padding: 1rem;
+  }
+
+  .heroimg .overlay {
+   text-align: center;
+   object-fit: contain;
+  }
+
+  .carousel-container {
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+
+  .carousel-caption {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 24px; /* Reduce heading size on mobile */
+  }
+
+  .ourprojects .carousel-caption h3 {
+    font-size: 12px;
+    font-weight: 800;
+
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+
+
+  .social-media-icons {
+    display: flex;
+    padding-inline: 4rem;
+    margin-bottom: -3rem;
+  }
+
+  .social-media-icons a {
+    width: 40px; /* Smaller icons for mobile */
+    height: 40px;
+    font-size: 18px; /* Adjust icon size */
+  }
+
+  .small-image {
+    padding-bottom: 1rem;
+  }
+
+  .small-image1 {
+    object-fit: cover;
+  }
+
+  .content-head1 h5 {
+    text-align: center;
+  }
+
+  .content-head1 h2 {
+    text-align: center;
+  }
+
+
+  .slick-prev, .slick-next{
+    width: 0 !important;
+  }
+}

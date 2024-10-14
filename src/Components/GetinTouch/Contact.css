@@ -1,0 +1,224 @@
+.contacttitle {
+  text-align: center;
+  justify-content: center;
+  font-size: 0.5rem;
+}
+
+.contacttitle h3 {
+  color: var(--color-skyblue);
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.30rem;
+  margin-left: 3rem;
+  font-family: Oswald;
+
+}
+
+.contacttitle p {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.20rem;
+}
+
+.imgsection .bgblack {
+  background-image: url(../../Assets/BgBlack.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+ 
+}
+
+.circleimg {
+  position: absolute;
+  left: 310px;
+  bottom: 0;
+}
+
+.imagedata {
+  margin-left: 3rem;
+  color: white;
+}
+
+.imgcontactdetail {
+  margin-left: 3rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.phonedetail a,
+.maildetail a,
+.locationdetail a {
+  text-decoration: none;
+  color: white;
+  margin-left: 3rem;
+}
+
+.imageIcon {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+.imageIcon a {
+  color: white;
+  padding: 1rem;
+}
+
+.imageIcon a:hover {
+  color: var(--color-skyblue);
+}
+
+.cuscol {
+  padding-left: 0;
+}
+
+.form-group .custom-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.form-group .custom-input:focus {
+  border-bottom-color: #007bff;
+  outline: none;
+}
+
+.custom-input:focus + .form-label,
+.custom-input:not(:placeholder-shown) + .form-label {
+  color: #007bff;
+  transform: translateY(-35px);
+  font-size: 16px;
+}
+
+/* Label floating animation */
+
+.form-group {
+  position: relative;
+  margin-top: 15px;
+  
+}
+
+.form-label {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  pointer-events: none;
+  transition: 0.3s ease all;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.select {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+/* Styling the submit button */
+.contact-form .btn-primary {
+  background-color: #00aaff;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) { /* For tablets and smaller devices */
+  .contacttitle h3 {
+      font-size: 2rem;
+      margin-left: 0; /* Center title on smaller screens */
+  }
+
+  .contacttitle p {
+      font-size: 14px;
+  }
+
+  .imgsection .bgblack {
+   width: 100%;  
+  }
+
+  .circleimg {
+      left: 50%; /* Center the circle image */
+      transform: translateX(35%);
+  }
+
+  .imagedata {
+     text-align: center;
+     padding-bottom: 0; /* Reduce margin for smaller screens */
+  }
+
+  .imgcontactdetail {
+      text-align: left; /* Reduce margin for smaller screens */
+      font-size: 0.9rem;
+       
+      
+  }
+
+  .imageIcon {
+      margin-left: 2rem; /* Reduce margin for smaller screens */
+      font-size: 1.2rem; /* Adjust icon size */
+  }
+
+  .imageIcon a {
+      padding: 0.5rem; /* Adjust padding */
+  }
+
+ .cuscol {
+  padding: 0;
+ }
+  
+
+}
+
+@media (max-width: 576px) { /* For mobile devices */
+  .contacttitle h3 {
+      font-size: 1.5rem;
+      margin-left: 0; /* Center title on mobile */
+  }
+
+  .contacttitle p {
+      font-size: 12px;
+  }
+
+  .imgsection .bgblack {
+      padding: 1rem;
+      border-radius: 2rem; /* Less padding */
+  }
+
+  .circleimg {
+      display: none; /* Hide the circle image on mobile */
+  }
+
+  .imagedata {
+      margin-left: 0; /* No margin on mobile */
+      text-align: center; /* Center text */
+  }
+
+  .imgcontactdetail {
+      margin-left: 0; /* No margin on mobile */
+      font-size: 0.8rem; /* Further adjust font size */
+  }
+
+  .form-group .custom-input {
+      font-size: 14px; /* Adjust input font size */
+  }
+
+  .imageIcon {
+      margin-left: 0; /* Center icons on mobile */
+      text-align: center; /* Center icons */
+      font-size: 1rem; /* Adjust icon size */
+  }
+
+  .imageIcon a {
+      padding: 0.5rem; /* Adjust padding */
+      
+    }
+
+  .contact-form .btn-primary {
+      padding: 8px 16px; /* Adjust button padding */
+  }
+}

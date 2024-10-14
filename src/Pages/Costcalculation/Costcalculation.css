@@ -1,0 +1,153 @@
+.heroimg5 {
+    background: url(../../Assets/Costcalculationimg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay5 {
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 100%;
+    height: 100%;
+  }
+  .overlay5 h2 {
+    text-align: center;
+    padding: 10rem 10rem;
+    color: var(--color-darkblue);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+  }
+
+  .room-selection-container {
+    border-top: 5px solid var(--color-skyblue);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 7px 15px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+
+  
+  .room-selection-container h3 {
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    padding: 0.25rem;
+  }
+
+  .room-selection-container h3 span {
+    color: var(--color-skyblue);
+  }
+
+  .room-selection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  
+  .room {
+    text-align: center;
+    color: var(--color-black);
+    font-weight: 600;
+    
+   
+  }
+  
+
+.item1 {
+    color: black;
+    font-weight: 500;
+    padding-bottom: 0rem;
+}
+
+
+  .vertical-separator {
+    width: 5px;
+    height: 50px;
+    background-color: var(--color-skyblue);
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    margin-left: 25px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #00AEEF;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .heroimg5 .overlay5 {
+        height: 20vh;
+    }
+
+    .overlay5 h2 {
+       color: var(--color-darkblue);
+       padding: 0;
+       margin: 0;
+       font-size: 25px;
+       font-weight: bold;
+       text-align: center;
+       padding-top: 5rem;
+      }
+
+      .room-selection-container .room-selection  {
+        display: grid;
+      }
+
+      .room{
+       margin-top: -2rem;
+        margin-left: 1rem;
+        text-align: left;
+      }
+
+      
+}

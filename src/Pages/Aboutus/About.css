@@ -1,0 +1,186 @@
+.heroimg {
+    background: url(../../Assets/slide1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 100%;
+    height: 100%;
+  }
+  .overlay h2 {
+    text-align: center;
+    padding: 10rem 10rem;
+    color: var(--color-darkblue);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+  }
+  
+  .aboutimg img {
+    padding: 7rem;
+    width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .sideinfo {
+    padding-top: 10rem;
+  }
+  
+  .tabstyle {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-box {
+    padding: 1.5rem;
+  }
+  
+  .progress-section {
+    margin-top: 20px;
+  }
+  
+  .progress-value {
+    float: right;
+    font-weight: bold;
+  }
+  
+  .nav-tabs .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #777;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    color: black;
+  }
+  
+  .rightimg img {
+    padding: 2rem;
+    width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .content {
+    margin-top: 6rem;
+    padding: 3rem;
+  }
+  
+  .content .contenthead h2 {
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    padding-bottom: 1rem;
+    font-family: Oswald;
+  }
+  
+  .content .contenthead span {
+    color: var(--color-skyblue);
+  }
+  
+  .content p {
+    color: black;
+    padding: 0.25rem;
+    letter-spacing: 2px;
+    text-align: start;
+  }
+  
+  .content p span {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .team {
+    justify-content: space-evenly;
+  }
+
+  .ourteam h2 {
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    padding-bottom: 1rem;
+    font-family: Oswald;
+    text-align: center;
+  }
+
+  .ourteam span {
+    color: var(--color-skyblue);
+
+  }
+
+  .team-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .team-card:hover .card-overlay {
+    opacity: 1;
+  }
+  
+  .overlay-text h3 {
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .overlay-text p {
+    color: whitesmoke;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+  }
+    
+  
+  @media (max-width: 770px) {
+    
+    .aboutimg img {
+      padding: 0;
+    }
+  
+    .sideinfo {
+      padding-top: 1rem;
+    }
+  
+    .content {
+      margin-top: 1rem;
+      padding: 0rem;
+    }
+  
+    .overlay h2 {
+      padding: 5rem 2rem; /* Adjust padding for smaller screens */
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .nav-tabs .nav-link {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .overlay-text {
+      font-size: 1rem;
+    }
+  }
+  

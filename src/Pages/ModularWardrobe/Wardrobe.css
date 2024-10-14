@@ -1,0 +1,38 @@
+.heroimg2 {
+    background: url(../../Assets/WardrobeBanner.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay2 {
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 100%;
+    height: 100%;
+  }
+  .overlay2 h2 {
+    text-align: center;
+    padding: 10rem 10rem;
+    color: var(--color-darkblue);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .heroimg2 .overlay2 {
+        height: 20vh;
+    }
+
+    .overlay2 h2 {
+       color: var(--color-darkblue);
+       padding: 0;
+       margin: 0;
+       font-size: 25px;
+       font-weight: bold;
+       text-align: center;
+       padding-top: 5rem;
+      }
+}

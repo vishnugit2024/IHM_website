@@ -1,0 +1,8 @@
+.trustsec p {
+    text-align: left;
+    color: var(--color-black);  
+}
+
+.trustsec .trustimg img {
+   padding: 0rem 12rem 1rem 0rem; 
+}

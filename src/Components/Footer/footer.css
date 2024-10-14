@@ -1,0 +1,153 @@
+/* Footer container */
+.footer {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo and Rights section */
+.footer-logo {
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.footer-rights {
+  font-size: 14px;
+  color: var(--color-black);
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-rights a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-skyblue);
+}
+
+/* Navigation section */
+.footer-nav {
+  text-align: left;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--color-black);
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+  transition: all 300ms ease-in;
+}
+
+.footer-link:hover {
+  color: var(--color-skyblue);
+  padding-left: 0.5rem;
+}
+
+/* Contact information section */
+.footer-contact {
+  text-align: left;
+}
+
+.footer-contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact-info li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-contact-info li:hover {
+  color: var(--color-skyblue);
+}
+
+.footer-icon {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+/* Social media icons */
+.footer-social {
+  margin-top: 15px;
+}
+
+.footer-social-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s ease;
+  padding-inline: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+  }
+
+  .footer-logo-rights {
+      text-align: center;
+      padding-left: 0.75rem;
+  }
+
+  .footer-nav  {
+      text-align: left;
+      margin-top: 20px;
+      padding-left: 1rem;
+  }
+
+  .footer-contact {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 1rem;
+  }
+
+  .footer-heading {
+      font-size: 22px; /* Slightly smaller font size on mobile */
+  }
+
+  .footer-links,
+  .footer-contact-info {
+      padding: 0;
+      margin: 0;
+  }
+
+  .footer-link,
+  .footer-contact-info li {
+      font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .footer-rights {
+      font-size: 12px; /* Smaller font size for the rights statement */
+  }
+
+  .footer-social a {
+    padding: 2rem;
+  }
+}

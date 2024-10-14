@@ -1,0 +1,23 @@
+.workimgtitle {
+     background: #F5F5F5;
+    padding: 3rem;
+    margin-left: -1.5rem;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    height: 100%;
+}
+
+.workimgtitle h1 {
+  padding-bottom: 2rem;
+  font-weight: 600;
+  font-size:  xx-large;
+}
+
+.workimgtitle1 {
+    background: #F5F5F5;
+   padding: 3rem;
+   margin-right: -1.3rem;
+   font-family: Oswald;
+   letter-spacing: 2px;
+   height: 100%;
+}

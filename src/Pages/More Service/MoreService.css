@@ -1,0 +1,105 @@
+.heroimg4 {
+  background: url(../../Assets/Furniturebanner.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay4 {
+  background-color: rgba(255, 255, 255, 0.74);
+  width: 100%;
+  height: 100%;
+}
+.overlay4 h2 {
+  text-align: center;
+  padding: 10rem 10rem;
+  color: var(--color-darkblue);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+}
+
+.servicehead {
+  text-align: center;
+  font-family: Oswald;
+}
+
+.servicehead h1 {
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  color: var(--color-black);
+}
+
+.servicehead h1 span {
+  color: var(--color-skyblue);
+}
+
+.servicehead p {
+  color: var(--color-black);
+  letter-spacing: 2px;
+  width: 70%;
+  margin: auto;
+}
+
+.titleimg {
+  object-fit: cover;
+  aspect-ratio: 1.2;
+}
+
+.imgtitle {
+  background: #f5f5f5;
+  border-radius: 0 0 1rem 1rem;
+  height: 240px;
+}
+
+.imgtitle1 {
+  background: #f5f5f5;
+  border-radius: 0 0 1rem 1rem;
+  height: 240px;
+}
+
+.imgtitle1 h2 {
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem;
+  font-family: Oswald;
+  letter-spacing: 0.2rem;
+}
+
+.imgtitle1 p {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 0;
+  letter-spacing: 1.5px;
+}
+.imgtitle h2 {
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem;
+  font-family: Oswald;
+  letter-spacing: 0.2rem;
+}
+
+.imgtitle p {
+  text-align: left;
+  padding: 1rem;
+  padding-top: 0;
+  letter-spacing: 1.5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroimg4 .overlay4 {
+      height: 20vh;
+  }
+
+  .overlay4 h2 {
+     color: var(--color-darkblue);
+     padding: 0;
+     margin: 0;
+     font-size: 25px;
+     font-weight: bold;
+     text-align: center;
+     padding-top: 5rem;
+    }
+}

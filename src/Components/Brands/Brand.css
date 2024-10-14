@@ -1,0 +1,33 @@
+.brandbg {
+    background: wheat;
+    height: 100px;
+}
+
+.brandbg .brandimg {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.brandbg .brandimg img {
+   height: 100px;
+   padding: 0 1rem;
+}
+
+.slick-prev::before {
+    display: none;
+}
+
+.slick-next::before {
+    display: none;
+}
+
+  @media (max-width: 767px) {
+    .slick-prev::before {
+        display: none;
+    }
+
+    .slick-next::before {
+        display: none;
+    }
+  }
