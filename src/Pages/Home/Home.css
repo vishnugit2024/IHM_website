@@ -181,13 +181,13 @@
   color: var(--color-skyblue);
   font-weight: bold;
   padding-bottom: 0.5rem;
-  font-family: Oswald;
+  font-family: Playfair Display;
 }
 
 .content-head1 h2 {
   color: var(--color-black);
   font-weight: bold;
-  font-family: Oswald;
+  font-family: Playfair Display;
 
 }
 /* Padding for the card container */

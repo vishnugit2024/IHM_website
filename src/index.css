@@ -29,7 +29,7 @@ body {
   letter-spacing: 0.3rem;
   display: inline-block;
   position: relative;
-  font-family: Oswald;
+  font-family: Playfair Display;
 }
 
 .title-head span {
@@ -49,7 +49,7 @@ body {
   text-align: left;
   font-weight: 600;
   text-decoration: underline;
-  font-family: Oswald;
+  font-family: Playfair Display;
 }
 
 .content-head h2 {
