@@ -143,7 +143,7 @@ const Contact = () => {
 
                 <div className="mb-4">
                   <label className="select mb-3">Select Subject? </label>
-                  <div className="d-flex justify-content-between subject-options">
+                  <div className="subject-options">
                     <div className="form-check">
                       <input
                         className="form-check-input"

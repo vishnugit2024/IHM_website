@@ -23,7 +23,7 @@
   margin-top: 10px;
   margin-bottom: 20px;
   font-weight: bold;
-  color: var(--color-skyblue);
+  color: var(--color-black);
 }
 
 .social-media-icons {
@@ -285,11 +285,15 @@ h5 {
 
   .carousel-caption {
     font-size: 16px;
-    padding-bottom: 10px;
+    top: 40%;
   }
 
   .carousel-caption h1 {
     font-size: 24px; /* Reduce heading size on mobile */
+  }
+
+  .carousel-caption h1 span {
+    color: var(--color-skyblue);
   }
 
   .ourprojects .carousel-caption h3 {

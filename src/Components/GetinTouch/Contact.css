@@ -113,6 +113,12 @@
   color: var(--color-black);
 }
 
+.subject-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .select {
   font-size: 14px;
   font-weight: 700;
@@ -205,6 +211,12 @@
 
   .form-group .custom-input {
       font-size: 14px; /* Adjust input font size */
+  }
+
+  .subject-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .imageIcon {
